@@ -1,0 +1,16 @@
+version: "2"
+
+services:
+  web:
+    build: PingService/
+    depends_on:
+      - web1
+    ports:
+      - "8080:8080"
+
+  web1:
+    build: ReceiverService/
+    ports:
+      - "5001:5001"
+
+

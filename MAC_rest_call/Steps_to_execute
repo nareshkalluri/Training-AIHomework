@@ -1,0 +1,20 @@
+After cloning the code Just follow below steps
+
+#Build the docker Image
+
+1. docker build -t pythonapp .
+
+# Run the Docker Image
+
+2. docker run -t -i pythonapp
+
+Then it will promts the user to enter Mac address and Authentication Token
+
+
+Note: Mac address will accept in these two formats 44:38:39:ff:ef:57 and 44-38-39-ff-ef-57
+
+Note: Enter the inputs when it prompts  (Mac Address and Token) If you dont know the Mac Address and Token just press Enter, it will take the default
+Values of Mac address and token and it will query accordingly and outputs the companyName for that Mac Address.
+c
+
+
