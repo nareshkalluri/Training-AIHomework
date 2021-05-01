@@ -8,6 +8,7 @@ cd MAC_rest_call
 docker build -t pythonapp .
 Run the Docker Image
 docker run -t -i pythonapp
+
 Then it will promts the user to enter Mac address and Authentication Token
 
 Note: Mac address will accept in these two formats 44:38:39:ff:ef:57 and 44-38-39-ff-ef-57
